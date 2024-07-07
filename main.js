@@ -1,7 +1,7 @@
 console.log('Hello world!')
 
-//const ws = new WebSocket('wss://convinced-idalia-jask-b-5927cc44.koyeb.app')
-const ws = new WebSocket('ws://localhost:8080')
+const ws = new WebSocket('wss://websocket-chat-7ow5.onrender.com')
+//const ws = new WebSocket('ws://localhost:8080')
 
 formChat.addEventListener('submit', (e) => {
     e.preventDefault()
