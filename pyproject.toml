@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "websocket-chat"
+version = "0.1.0"
+description = ""
+authors = ["YevheniiBaranov <j52b10i78@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+websockets = "^12.0"
+names = "^0.3.0"
+aiohttp = "^3.9.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
